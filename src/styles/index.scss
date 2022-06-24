@@ -1,0 +1,25 @@
+@import './config';
+@import url('https://fonts.googleapis.com/css2?family=Gilda+Display&family=Kumbh+Sans:wght@400;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Gilda Display', serif;
+    font-family: 'Kumbh Sans', sans-serif;
+    background-color: $white;
+    color:$black;
+}
+li{
+    list-style:none;
+}
+button{
+
+}
+
+
+@import './partials/header';
+@import './partials/checkoutCard';
+@import './partials/product';
