@@ -4,6 +4,7 @@ import Header from './components/Header';
 import { ContextProvider } from "./context/Contextapi";
 import CheckoutCard from "./components/CheckoutCard";
 import Product from "./components/product/Product";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
     <Header/>
     <CheckoutCard/>
      <Product/>
+     <Footer />
     </div>
     </ContextProvider>
    

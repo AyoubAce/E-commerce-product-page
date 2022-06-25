@@ -18,6 +18,14 @@ li{
 button{
 
 }
+.attribution{
+    padding:2rem;
+    text-align: center;
+    a{
+        text-decoration: none;
+        color:$orange;
+    }
+}
 
 
 @import './partials/header';
