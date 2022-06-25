@@ -1,14 +1,13 @@
 import React, { useContext } from "react";
 import CommerceContext from "../context/Contextapi";
 import thumbnail from "../images/image-product-1-thumbnail.jpg";
-import deleteIcon from "../images/icon-delete.svg";
 import formatter from "./product/formatter";
 
 
 
 
 function CheckoutCard() {
-  const { item, setItem, visibleCart, setVisibleCart } =
+  const { item, setItem, visibleCart } =
     useContext(CommerceContext);
 
   
