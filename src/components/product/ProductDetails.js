@@ -7,6 +7,7 @@ import iconMinus from "../../images/icon-minus.svg";
 function ProductDetails() {
   const { item, setItem } = useContext(CommerceContext);
   const [count, setCount] = useState(0);
+  const [notification, setNotification]= useState(false)
 
   const addToCart = () => {
     setItem((values) => {
@@ -16,6 +17,10 @@ function ProductDetails() {
       "cart",
       JSON.stringify({ ...item, count: item.count + count })
     );
+    setNotification(true);
+    setTimeout(() => {
+      setNotification(false)
+    },2000);
   };
 
   return (
@@ -60,6 +65,7 @@ function ProductDetails() {
           />
         </div>
         <button onClick={addToCart}>Add to cart</button>
+        {notification && <span>{count} items added to cart</span>}
       </div>
     </div>
   );
