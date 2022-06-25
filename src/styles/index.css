@@ -172,6 +172,12 @@ nav ul li:hover {
   }
 }
 
+.checkout-container-parent {
+  position: fixed;
+  inset: 0 0 0 0;
+  z-index: 1;
+}
+
 .checkout-container {
   position: absolute;
   top: 70px;
@@ -369,6 +375,8 @@ nav ul li:hover {
   background-color: #ff7d1a;
   color: white;
   font-weight: 700;
+  -webkit-box-shadow: -1px 1px 10px -1px #b6bcc8;
+          box-shadow: -1px 1px 10px -1px #b6bcc8;
   cursor: pointer;
 }
 
