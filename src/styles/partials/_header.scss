@@ -109,7 +109,8 @@ transform: translateX(0%);
 }
 @media screen and (min-width: 1024px) {
   header{
-   padding:1.5rem 6rem 0;
+    padding:0;
+    margin:1.5rem 6rem 0;
   }
   
 }
