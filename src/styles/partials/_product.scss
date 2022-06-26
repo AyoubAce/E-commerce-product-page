@@ -153,7 +153,7 @@
       margin: 2rem 0;
       .thumbnail {
         img {
-          width: 75px;
+          width: 100px;
           border-radius: 10px;
         }
       }
@@ -169,7 +169,7 @@
 
 @media screen and (min-width: 1024px) {
   .product-container{
-    padding: 4rem 7rem 3rem;
+    padding: 4rem 10rem 3rem;
     .add-to-cart{
       flex-direction: row;
       button{
