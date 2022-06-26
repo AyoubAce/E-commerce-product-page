@@ -150,7 +150,7 @@
     .thumbnails-container {
       display: flex;
       justify-content: space-between;
-      gap: 0.5rem;
+      max-width: 350px;
       margin: 2rem 0;
       .thumbnail {
         img {
