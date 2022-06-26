@@ -406,8 +406,6 @@ nav ul li:hover {
 .product-galerie .main-img .img {
   display: block;
   width: 100%;
-  max-height: 350px;
-  width: 350px;
 }
 
 .product-galerie .main-img .icon {
@@ -438,7 +436,6 @@ nav ul li:hover {
   }
   .product-container .product-galerie .main-img .img {
     border-radius: 10px;
-    max-height: 400px;
   }
 }
 
@@ -467,11 +464,11 @@ nav ul li:hover {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    max-width: 350px;
+    gap: 1rem;
     margin: 2rem 0;
   }
   .product-container .thumbnails-container .thumbnail img {
-    width: 65px;
+    width: 80px;
     border-radius: 10px;
   }
   .product-container .thumbnails-container .activeThumbnail img {

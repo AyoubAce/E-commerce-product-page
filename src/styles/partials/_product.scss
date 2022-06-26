@@ -88,8 +88,7 @@
     .img {
       display: block;
       width: 100%;
-      max-height: 350px;
-      width: 350px;
+      // max-height: 350px;
     }
     .icon {
       position: absolute;
@@ -119,7 +118,7 @@
       .main-img {
         .img {
           border-radius: 10px;
-          max-height: 400px;
+          // max-height: 400px;
         }
       }
     }
@@ -150,11 +149,11 @@
     .thumbnails-container {
       display: flex;
       justify-content: space-between;
-      max-width: 350px;
+      gap:1rem;
       margin: 2rem 0;
       .thumbnail {
         img {
-          width: 65px;
+          width: 80px;
           border-radius: 10px;
         }
       }
