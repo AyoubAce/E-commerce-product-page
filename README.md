@@ -1,4 +1,4 @@
-#  Simple ecommerce product page
+# Ecommerce product page
 
 ## Project setup
 - Clone repo
